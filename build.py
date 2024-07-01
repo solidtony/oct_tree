@@ -18,7 +18,7 @@ def build_project(clean=False, config="Release", generator="Ninja Multi-Config")
 
     run(f"cmake --build --preset conan-{config.lower()}")
 
-    deactivate_venv()
+    #deactivate_venv()
 
 if __name__ == "__main__":
     args = parse_args()

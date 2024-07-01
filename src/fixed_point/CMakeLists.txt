@@ -1,7 +1,11 @@
-project(addition)
+project(fixed_point)
 
 add_library(${PROJECT_NAME} STATIC
-    src/add.cpp
+    inc/FixedPoint32.h
+    src/FixedPoint32.cpp
+    inc/FixedPoint64.h
+    src/FixedPoint64.cpp
+    inc/FixedPointTypeDefs.h
 )
 
 target_include_directories(${PROJECT_NAME}

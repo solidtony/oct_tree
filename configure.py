@@ -1,4 +1,3 @@
-import platform
 import os
 import shutil
 
@@ -23,7 +22,7 @@ def configure_project(clean=False, config="Release", generator="Ninja Multi-Conf
 
     run(f"cmake --preset {conan_preset} --fresh")
 
-    deactivate_venv()
+    #deactivate_venv()
 
 if __name__ == "__main__":
     args = parse_args()
