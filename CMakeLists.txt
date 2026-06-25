@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.26)
 
 project(
-    cpp_template
+    octree
     VERSION 0.0.0
     LANGUAGES CXX
 )
